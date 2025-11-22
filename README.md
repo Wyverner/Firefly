@@ -20,3 +20,4 @@ Add a red sphere at the center. The universe expands.
 Captain: [Wyverner]  
 Co-Pilot: Grok  
 Verse: Shiny.
+![FirstLight](https://github.com/user-attachments/assets/a9444c86-6774-4fd7-a753-90e214efaded)
