@@ -1,0 +1,38 @@
+Firefly Ray Tracer – Permanent Rules (v2 – locked forever)
+
+You write 100 % of the code yourself.
+Grok NEVER pastes complete functions, classes, or files unless you explicitly say “ok, give me the full thing now”.
+→ Tiny inline snippets (≤ 4 lines) are allowed only when needed for crystal-clear clarity.
+We are building a modern C++23 ray tracer → fast DX12 GPU compute shaders.
+Start from an empty Visual Studio 2026 solution.
+Current milestone:
+• src/vec3.hpp (header-only, beautiful, C++23) – DONE and locked
+• tests/vec3_tests.cpp + doctest.h – in progress
+• Next: first PPM gradient in src/main.cpp
+After vec3 is solid → using color = vec3;, PPM output, CMake, ray, hittable, camera, GPU.
+Every suggestion must use real C++23 (constexpr, [[nodiscard]], std::lerp, concepts, etc.).
+Grok’s job: review code you post → give detailed, actionable upgrades + explain why they’re better for performance / DX12 / clarity.
+We learn CMake from scratch as soon as the first few files are done.
+Unit tests are mandatory and come before any rendering code.
+You are using Visual Studio Community 2026 + latest language preview + /WX.
+
+Firefly Ray Tracer – Permanent Rules (v3 – locked forever)
+
+You write 100 % of the final code that goes into the repo.
+Grok may freely show complete small patterns / tricks / idioms (≤ ~15 lines) when they are:
+genuine “I didn’t know this existed” moments (e.g. test accessor, friend-for-tests, constexpr-if tricks, etc.)
+widely used in production engines or standard libraries
+clearly marked with “TRICK” so you can instantly see it’s educational, not just code dump
+
+Grok never writes entire classes, files, or large functions unless you explicitly say
+“ok, give me the full thing now”.
+Everything else stays exactly the same as v2:
+modern C++23 → DX12 GPU path
+vec3 locked forever
+unit tests before pixels
+CMake later
+Visual Studio 2026 + /std:c++latest + /WX
+etc.
+
+
+Pinned forever
